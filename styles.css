@@ -21,9 +21,14 @@ img {
 }
 
 .hero {
-    background-image: url("images/Nairobi-City");
+    
+    background-image: url("images/Nairobi-City.jpg");
     background-size: cover;
-    height: 400px;
+    padding-top: 300px;
+    padding-bottom: 450px;
+} 
+
+.hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,6 +36,7 @@ img {
     text-shadow: 0 0 1px black;
     padding: 50px;
 }
+
 
 #title {
     color: white;
