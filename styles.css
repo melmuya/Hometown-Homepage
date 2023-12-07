@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+}
+
+.hero {
+    background-image: url("images/Nairobi-City");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 1px black;
+    padding: 50px;
+}
+
+#title {
+    color: white;
+    background: #457B9D; 
+    margin-bottom: 10px;
+}
+
+#tagline {
+    color: wheat;
+    background: #1D3557
+}
+
+.activities {
+    padding: 10px;
+    background: #F1FAEE;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    
+}
+
+.img-container-1, .img-container-2, .img-container-3 {
+    
+    width: 200px;
+}
+
+.guide {
+   padding: 10px; 
+   background: linear-gradient(burlywood, pink);
+}
+
+.guide-card {
+    width: 400px;
+    background: #A8DADC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-bottom: 5px solid #1D3557
+}
+
+#guide-bio {
+    font-style: italic;
+    padding: 10px;
+}
+
+#guide-pic {
+    border-radius: 10px;
+    width: 160px;
+    height: 180px;
+    padding: 15px;
+}
